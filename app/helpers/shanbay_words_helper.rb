@@ -1,0 +1,2 @@
+module ShanbayWordsHelper
+end

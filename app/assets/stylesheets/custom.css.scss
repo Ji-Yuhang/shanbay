@@ -1,0 +1,56 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+    color:#aaaaaa;
+    background: #1D262A;
+}
+div {
+    margin:0;
+    border:0;
+    padding:0;
+}
+.word {
+    font-weight:bold;
+    color:#ffffff;
+    //float:left;
+    margin-left:10px;
+    margin-right:20px;
+}
+.star {
+    color:red;
+    margin-left:5cm;
+}
+.num {
+    color:#EBBB61;
+    //float:left;
+    //margin-right:10px;
+}
+.cn {
+    color:#ffffff;
+    //margin-left: 4px;
+    //float:left;
+}
+.sentence {
+    margin-left:10px;
+    color:#D4804D;
+    //float:right;
+    //margin-left:2cm;
+}
+
+.grammer {
+    //margin-left: 4cm;
+    //float:left;
+}
+
+.en {
+    color:#BE5053;
+    font-size:1em;
+    margin-left: 14px;
+    //float:left;
+}
+.zh {
+    color:#6F91B0;
+    font-size:1em;
+    margin-left: 20px;
+}

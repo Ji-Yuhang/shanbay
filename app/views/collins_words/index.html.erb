@@ -1,0 +1,11 @@
+<div class="word"><%= @word%></div><div class="star"><%= @star if !@star.nil? %></div>
+<% @list.each do |one|%>
+    <div class="num"><%= one.num%></div>
+    <div class="cn"><%= one.cn%></div>
+    <div class="sentence"><%= one.sentence%></div>
+    <div class="grammer"><%= one.grammer%></div>
+    <% @map[one].each do |en, zh| %>
+        <div class="en"><%= en %></div>
+        <div class="zh"><%= zh %></div>
+    <% end %>
+<% end%>
