@@ -9,6 +9,7 @@ div {
     margin:0;
     border:0;
     padding:0;
+  line-height: 1em;
 }
 .word {
     font-weight:bold;
@@ -23,22 +24,30 @@ div {
 }
 .num {
     color:#EBBB61;
+  flaot:left; width:10%; //height:10px;
+  clear:right;
     //float:left;
     //margin-right:10px;
 }
 .cn {
+  flaot:left; width:90%; //height:10px;
     color:#ffffff;
+  clear:right;
     //margin-left: 4px;
     //float:left;
 }
 .sentence {
     margin-left:10px;
     color:#D4804D;
+  //font-weight: bold;
+  font-style: italic;
     //float:right;
     //margin-left:2cm;
 }
 
 .grammer {
+  //line-height: 0.5em;
+  font-size: 0.5em;
     //margin-left: 4cm;
     //float:left;
 }
